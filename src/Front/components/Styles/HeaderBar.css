@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Monsieur+La+Doulaise&display=swap');
 
 *{
     padding: 0;
@@ -37,10 +37,11 @@
     margin-left: 15px;
 }
 .title-logo-site{
-    padding-left: 15px;
+    padding-left: 10px;
     color: #1f2412;
-    font-family: "Gravitas One", Times;
-    font-weight: 300;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-size: 45px;
 }
 
 .right-side{

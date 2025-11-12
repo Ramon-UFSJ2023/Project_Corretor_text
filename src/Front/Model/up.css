@@ -6,6 +6,11 @@
     box-sizing: border-box;
 
 }
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 .header-geral{
     width: 100%;

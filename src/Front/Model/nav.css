@@ -1,0 +1,7 @@
+.nav-bar-geral{
+    width: 120px;
+    border: 1px solid black;
+    flex-grow: 1; /* A mágica acontece aqui! */
+    background-color: #ccc; /* Apenas para visualização */
+    overflow-y: auto;
+}
