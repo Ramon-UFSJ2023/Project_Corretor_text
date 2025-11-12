@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header-geral{
+    width: 100%;
+    max-height: 70px;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left-side{
+    max-height: 70px;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.middle-side{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-height: 70px;
+}
+
+.logo-img{
+    height: 68px;
+    width: 70px;
+    background-size: cover;
+    background: no-repeat center;
+    margin-left: 15px;
+}
+.title-logo-site{
+    padding-left: 15px;
+    color: #1f2412;
+    font-family: "Gravitas One", Times;
+    font-weight: 300;
+}
+
+.right-side{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bolinha-do-perfil{
+    background-color: #1f2412;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.subtitle-upper-bar{
+    color: #1f2412;
+    font-family: "Gravitas One", Times;
+    font-weight: 300;
+
+}
+.roubando-dindin{
+    align-content: center;
+    margin-right: 20px;
+    color: white;
+    background-color: #1f2412;
+    border-radius: 50px;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+    width: 40%;
+    cursor: pointer;
+    font-weight: 200;
+    font-family:  "Gravitas One", Times;
+}
