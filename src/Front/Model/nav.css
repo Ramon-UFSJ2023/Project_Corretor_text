@@ -2,6 +2,33 @@
     width: 120px;
     border: 1px solid black;
     flex-grow: 1; /* A mágica acontece aqui! */
-    background-color: #ccc; /* Apenas para visualização */
+    background-color: #fff; /* Apenas para visualização */
     overflow-y: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.nav-bar-division{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-img-navbar{
+    height: 55px;
+    width: 55px;
+    padding: 5px;
+    border-radius: 50px;
+    background-size: cover;
+}
+.h3-nav-bar{
+    text-align: center;
+}
+.icon-referencias{
+    background-color: #87a7285b;
+}
+.icon-corretor{
+    background-color: #a2b36d8f;
+}
+.ref-h3{
+    font-size: 15px;
 }
