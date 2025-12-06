@@ -13,10 +13,12 @@ export default function NavBar() {
       w="full"
       justifyContent="flex-start"
       h="50px"
+      padding={"5px"}
       _hover={{ bg: "#3C4426", color: accentGreen }}
       color={isActive ? accentGreen : textLight}
       bg={isActive ? "#323820" : "transparent"}
       gap={3}
+      borderRadius="10px"
     >
       <Image src={icon} boxSize="24px" />
       <Text fontSize="md" fontWeight="normal">
