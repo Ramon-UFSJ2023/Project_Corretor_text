@@ -16,8 +16,9 @@ export default function NavBar() {
       _hover={{ bg: "#3C4426", color: accentGreen }}
       color={isActive ? accentGreen : textLight}
       bg={isActive ? "#323820" : "transparent"}
-      leftIcon={<Image src={icon} boxSize="24px" />}
+      gap={3}
     >
+      <Image src={icon} boxSize="24px" />
       <Text fontSize="md" fontWeight="normal">
         {label}
       </Text>
@@ -28,7 +29,7 @@ export default function NavBar() {
     <Box
       as="nav"
       w="250px"
-      h="calc(100vh - 70px)"
+      h="calc(100vh)"
       bg={bgDark}
       p="4"
       borderRight="1px solid"
